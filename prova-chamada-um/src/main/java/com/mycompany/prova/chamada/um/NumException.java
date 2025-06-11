@@ -2,13 +2,10 @@
 package com.mycompany.prova.chamada.um;
 
 public class NumException extends Exception {
-    public NumException() {
-    }
-
     public void impMsg() {
         System.out.println("""
-            ERRO: Não pode haver Número
-            Negativo para conta!
-            """);
+                ERRO: Não pode haver Número
+                Negativo para conta!
+                """);
     }
 }

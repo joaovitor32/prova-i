@@ -5,10 +5,10 @@ package com.mycompany.prova.chamada.um;
  *
  * @author joaolopes
  */
-public class Endereco {
+public final class Endereco {
     private int num = 0;
     private String rua = " ";
-  
+
     public String getRua() {
         return this.rua;
     }
